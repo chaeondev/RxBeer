@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		DEB49AB92B01EC2700381732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB49AB82B01EC2700381732 /* AppDelegate.swift */; };
 		DEB49ABB2B01EC2700381732 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB49ABA2B01EC2700381732 /* SceneDelegate.swift */; };
-		DEB49ABD2B01EC2700381732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB49ABC2B01EC2700381732 /* ViewController.swift */; };
-		DEB49AC02B01EC2700381732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB49ABE2B01EC2700381732 /* Main.storyboard */; };
+		DEB49ABD2B01EC2700381732 /* RandomBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB49ABC2B01EC2700381732 /* RandomBeerViewController.swift */; };
 		DEB49AC22B01EC2800381732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB49AC12B01EC2800381732 /* Assets.xcassets */; };
 		DEB49AC52B01EC2800381732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB49AC32B01EC2800381732 /* LaunchScreen.storyboard */; };
+		DEB49AD52B01F95100381732 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DEB49AD42B01F95100381732 /* SnapKit */; };
+		DEB49AD82B01F97000381732 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DEB49AD72B01F97000381732 /* RxCocoa */; };
+		DEB49ADA2B01F97000381732 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DEB49AD92B01F97000381732 /* RxSwift */; };
+		DEB49ADD2B02040A00381732 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DEB49ADC2B02040A00381732 /* Kingfisher */; };
+		DEB49AE02B02042600381732 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = DEB49ADF2B02042600381732 /* Moya */; };
+		DEB49AE22B02042600381732 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = DEB49AE12B02042600381732 /* ReactiveMoya */; };
+		DEB49AE42B02042600381732 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = DEB49AE32B02042600381732 /* RxMoya */; };
+		DEB49AE62B0209C900381732 /* BeerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB49AE52B0209C900381732 /* BeerAPI.swift */; };
+		DEB49AEA2B020A9F00381732 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB49AE92B020A9F00381732 /* Beer.swift */; };
+		DEB49AEC2B020D1800381732 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB49AEB2B020D1800381732 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DEB49AB52B01EC2700381732 /* RxBeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxBeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB49AB82B01EC2700381732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEB49ABA2B01EC2700381732 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DEB49ABC2B01EC2700381732 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DEB49ABF2B01EC2700381732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEB49ABC2B01EC2700381732 /* RandomBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerViewController.swift; sourceTree = "<group>"; };
 		DEB49AC12B01EC2800381732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEB49AC42B01EC2800381732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEB49AC62B01EC2800381732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB49AE52B0209C900381732 /* BeerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerAPI.swift; sourceTree = "<group>"; };
+		DEB49AE92B020A9F00381732 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		DEB49AEB2B020D1800381732 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB49ADD2B02040A00381732 /* Kingfisher in Frameworks */,
+				DEB49ADA2B01F97000381732 /* RxSwift in Frameworks */,
+				DEB49AD82B01F97000381732 /* RxCocoa in Frameworks */,
+				DEB49AE02B02042600381732 /* Moya in Frameworks */,
+				DEB49AE42B02042600381732 /* RxMoya in Frameworks */,
+				DEB49AD52B01F95100381732 /* SnapKit in Frameworks */,
+				DEB49AE22B02042600381732 /* ReactiveMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,73 @@
 		DEB49AB72B01EC2700381732 /* RxBeer */ = {
 			isa = PBXGroup;
 			children = (
-				DEB49AB82B01EC2700381732 /* AppDelegate.swift */,
-				DEB49ABA2B01EC2700381732 /* SceneDelegate.swift */,
-				DEB49ABC2B01EC2700381732 /* ViewController.swift */,
-				DEB49ABE2B01EC2700381732 /* Main.storyboard */,
-				DEB49AC12B01EC2800381732 /* Assets.xcassets */,
-				DEB49AC32B01EC2800381732 /* LaunchScreen.storyboard */,
+				DEB49ACC2B01ED5E00381732 /* Application */,
+				DEB49ACD2B01ED6500381732 /* Resource */,
+				DEB49ACE2B01ED7300381732 /* Source */,
 				DEB49AC62B01EC2800381732 /* Info.plist */,
 			);
 			path = RxBeer;
+			sourceTree = "<group>";
+		};
+		DEB49ACC2B01ED5E00381732 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DEB49AB82B01EC2700381732 /* AppDelegate.swift */,
+				DEB49ABA2B01EC2700381732 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DEB49ACD2B01ED6500381732 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DEB49AC32B01EC2800381732 /* LaunchScreen.storyboard */,
+				DEB49AC12B01EC2800381732 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DEB49ACE2B01ED7300381732 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DEB49ACF2B01F10A00381732 /* Model */,
+				DEB49AD12B01F12300381732 /* Network */,
+				DEB49AD02B01F11000381732 /* Presentation */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DEB49ACF2B01F10A00381732 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEB49AE92B020A9F00381732 /* Beer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEB49AD02B01F11000381732 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DEB49AD22B01F13200381732 /* Random */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DEB49AD12B01F12300381732 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DEB49AE52B0209C900381732 /* BeerAPI.swift */,
+				DEB49AEB2B020D1800381732 /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DEB49AD22B01F13200381732 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				DEB49ABC2B01EC2700381732 /* RandomBeerViewController.swift */,
+			);
+			path = Random;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +159,15 @@
 			dependencies = (
 			);
 			name = RxBeer;
+			packageProductDependencies = (
+				DEB49AD42B01F95100381732 /* SnapKit */,
+				DEB49AD72B01F97000381732 /* RxCocoa */,
+				DEB49AD92B01F97000381732 /* RxSwift */,
+				DEB49ADC2B02040A00381732 /* Kingfisher */,
+				DEB49ADF2B02042600381732 /* Moya */,
+				DEB49AE12B02042600381732 /* ReactiveMoya */,
+				DEB49AE32B02042600381732 /* RxMoya */,
+			);
 			productName = RxBeer;
 			productReference = DEB49AB52B01EC2700381732 /* RxBeer.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +196,12 @@
 				Base,
 			);
 			mainGroup = DEB49AAC2B01EC2700381732;
+			packageReferences = (
+				DEB49AD32B01F95100381732 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DEB49AD62B01F97000381732 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				DEB49ADB2B02040A00381732 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				DEB49ADE2B02042600381732 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = DEB49AB62B01EC2700381732 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +218,6 @@
 			files = (
 				DEB49AC52B01EC2800381732 /* LaunchScreen.storyboard in Resources */,
 				DEB49AC22B01EC2800381732 /* Assets.xcassets in Resources */,
-				DEB49AC02B01EC2700381732 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEB49ABD2B01EC2700381732 /* ViewController.swift in Sources */,
+				DEB49AEC2B020D1800381732 /* APIManager.swift in Sources */,
+				DEB49AE62B0209C900381732 /* BeerAPI.swift in Sources */,
+				DEB49ABD2B01EC2700381732 /* RandomBeerViewController.swift in Sources */,
+				DEB49AEA2B020A9F00381732 /* Beer.swift in Sources */,
 				DEB49AB92B01EC2700381732 /* AppDelegate.swift in Sources */,
 				DEB49ABB2B01EC2700381732 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +240,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DEB49ABE2B01EC2700381732 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DEB49ABF2B01EC2700381732 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DEB49AC32B01EC2800381732 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +382,6 @@
 				INFOPLIST_FILE = RxBeer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +409,6 @@
 				INFOPLIST_FILE = RxBeer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +446,79 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DEB49AD32B01F95100381732 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		DEB49AD62B01F97000381732 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+		DEB49ADB2B02040A00381732 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+		DEB49ADE2B02042600381732 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DEB49AD42B01F95100381732 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEB49AD32B01F95100381732 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		DEB49AD72B01F97000381732 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEB49AD62B01F97000381732 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		DEB49AD92B01F97000381732 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEB49AD62B01F97000381732 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		DEB49ADC2B02040A00381732 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEB49ADB2B02040A00381732 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		DEB49ADF2B02042600381732 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEB49ADE2B02042600381732 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		DEB49AE12B02042600381732 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEB49ADE2B02042600381732 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		DEB49AE32B02042600381732 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEB49ADE2B02042600381732 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEB49AAD2B01EC2700381732 /* Project object */;
 }
